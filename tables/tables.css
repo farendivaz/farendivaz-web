@@ -1,0 +1,36 @@
+h1 {
+    color: #6C63FF;
+    text-align: center;
+}
+.content {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 50px auto;
+}
+
+.content thead tr {
+    background-color: #6C63FF ;
+    color: white;
+    font-weight: bold;
+}
+
+.content th, 
+.content td {
+    padding: 18px 21px;
+}
+
+.content tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.content tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content tbody tr:last-of-type {
+    border-bottom: 2px solid #6C63FF;
+}
