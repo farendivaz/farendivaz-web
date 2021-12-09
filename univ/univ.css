@@ -1,5 +1,8 @@
 * {
-    background: #6c63ff;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    margin: 0;
+    padding: 0;
 }
 .container {
     display: flex;
@@ -14,5 +17,16 @@
 }
 
 .item {
+    background: #6c63ff;
     padding: 30px;
+    background: #6c63ff;
+    list-style: none;
+}
+
+.item img {
+    background:#6c63ff;
+}
+
+.item a {
+    text-decoration: none;
 }
