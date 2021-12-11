@@ -28,6 +28,16 @@
     background:#fff;
 }
 
-.item a {
+a {
     text-decoration: none;
+}
+
+.previous {
+    position: absolute;
+    font-size: 3rem;
+    background: #6c63ff;
+    color: #fff;
+    padding: 0 5px;
+    margin: 1em;
+
 }

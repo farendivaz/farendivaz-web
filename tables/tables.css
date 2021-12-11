@@ -39,3 +39,15 @@ h1 {
 .content tbody tr:last-of-type {
     border-bottom: 2px solid #6C63FF;
 }
+a {
+    text-decoration: none;
+}
+
+.previous {
+    position: absolute;
+    font-size: 2rem;
+    background: #6C63FF;
+    color: #fff;
+    padding: 10px;
+    margin-left: 2em;
+}

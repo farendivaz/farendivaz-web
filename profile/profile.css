@@ -48,3 +48,15 @@ body {
     text-align: justify;
     margin-top: 50px;
 }
+a {
+    text-decoration: none;
+}
+
+.previous {
+    position: relative;
+    font-size: 3rem;
+    padding: 0 10px;
+    margin-left: 3em;
+    color: #fff;
+    background: #6C63FF;
+}
