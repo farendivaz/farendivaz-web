@@ -17,14 +17,15 @@
 }
 
 .item {
-    background: #6c63ff;
+    background: #fff;
     padding: 30px;
-    background: #6c63ff;
     list-style: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 .item img {
-    background:#6c63ff;
+    background:#fff;
 }
 
 .item a {
