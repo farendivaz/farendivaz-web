@@ -1,64 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calendar</title>
-    <link rel="stylesheet" href="calendar.css">
+	<style>
+		table {
+			border-collapse: collapse;
+			background: white;
+			color: black;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		}
+		
+		th,
+		td {
+			font-weight: bold;
+		}
+        .current {
+            background-color: #6c63ff;
+            color: #fff;
+        }
+        @media all screen and (min-width:392px) and (max-width:812px){
+            table {
+                width:50vw;
+            }
+        }
+	</style>
 </head>
+
 <body>
-    <div class="month">
-        <ul>
-            <li class="prev">&#10094;</li>
-            <li class="next">&#10095;</li>
-            <li>
-                Desember <br>
-                <span style="font-size: 1.2rem;">2021</span>
-            </li>
-        </ul>
-    </div>
-    <ul class="weekdays">
-        <li>Mon</li>
-        <li>Tue</li>
-        <li>Wed</li>
-        <li>Thu</li>
-        <li>Fri</li>
-        <li>Sat</li>
-        <li>Sun</li>
-    </ul>
-    <ul class="days">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-        <li>7</li>
-        <li>8</li>
-        <li>9</li>
-        <li>10</li>
-        <li>11</li>
-        <li>12</li>
-        <li>13</li>
-        <li class="active">14</li>
-        <li>15</li>
-        <li>16</li>
-        <li>17</li>
-        <li>18</li>
-        <li>19</li>
-        <li>20</li>
-        <li>21</li>
-        <li>22</li>
-        <li>23</li>
-        <li>24</li>
-        <li>25</li>
-        <li>26</li>
-        <li>27</li>
-        <li>28</li>
-        <li>29</li>
-        <li>30</li>
-        <li>31</li>
-    </ul>
+	<h2 align="center" style="color: #6c63ff;">
+		December 2021
+	</h2>
+
+	<table bgcolor="lightgrey" align="center"
+		cellspacing="21" cellpadding="21">
+
+		<caption align="top">
+		</caption>
+
+		<thead>
+			<tr>
+				<th style="color: white; background: #6c63ff;">
+					Sun</th>
+				<th style="color: white; background: #6c63ff;">
+					Mon</th>
+				<th style="color: white; background: #6c63ff;">
+					Tue</th>
+				<th style="color: white; background: #6c63ff;">
+					Wed</th>
+				<th style="color: white; background: #6c63ff;">
+					Thu</th>
+				<th style="color: white; background: #6c63ff;">
+					Fri</th>
+				<th style="color: white; background: #6c63ff;">
+					Sat</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td>5</td>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+				<td>10</td>
+				<td>11</td>
+			</tr>
+			<tr>
+				<td>12</td>
+				<td>13</td>
+				<td class="current">14</td>
+				<td>15</td>
+				<td>16</td>
+				<td>17</td>
+				<td>18</td>
+			</tr>
+			<tr>
+				<td>19</td>
+				<td>20</td>
+				<td>21</td>
+				<td>22</td>
+				<td>23</td>
+				<td>24</td>
+				<td>25</td>
+			</tr>
+			<tr>
+				<td>26</td>
+				<td>27</td>
+				<td>28</td>
+				<td>29</td>
+				<td>30</td>
+				<td>31</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
 </body>
+
 </html>
