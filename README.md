@@ -3,5 +3,5 @@
 Hasil Praktikum Pemrograman Web membuat profile website
 
 LIVE PREVIEW
-Click [here] (farendivazz.netlify.app)
+<a href="farendivazz.netlify.app" target="_blank">ICLICK HERE</a>
 
